@@ -2,24 +2,16 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Footer from '../public/Components/Footer/Footer'
+import Header from '../public/Components/Header/Header'
+import Content from '../public/Components/Content/Content'
 
-function Header(){
 
-return (<h1>Simple React Application</h1>)
 
-}
-
-function Content(props) {
-
-return (<p style={{color: props.color}}>{props.text}</p>)
-
-}
-
-function Footer() {
-
-<h1>Created by Me, of course</h1>
-
-}
+  
+  
+  
+  
 
 
 
